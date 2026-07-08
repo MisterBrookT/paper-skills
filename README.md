@@ -3,7 +3,7 @@
 **Journal-ready AI skills for every research discipline.**
 **面向论文产出的 AI skill 库：写作、引用、审稿、返修、期刊规范与科研图。**
 
-![Paper Skills overview](assets/paper-skills-hero.svg)
+![Paper Skills overview](assets/paper-skills-hero.png)
 
 ## English
 
