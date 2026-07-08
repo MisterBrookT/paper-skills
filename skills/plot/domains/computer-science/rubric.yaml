@@ -1,0 +1,24 @@
+domain: computer-science
+status: seed
+figure_families:
+  - model_architecture
+  - system_overview
+  - pipeline_dataflow
+  - evaluation_setup
+criteria:
+  structure:
+    description: Modules, stages, data artifacts, and execution paths match the method.
+  flow:
+    description: Arrows encode data flow, control flow, or dependency direction consistently.
+  contribution_focus:
+    description: The figure makes the paper's core method or system contribution visible.
+  hierarchy:
+    description: Components are grouped into meaningful layers, phases, or subsystems.
+  readability:
+    description: Labels, density, alignment, and visual emphasis support quick paper reading.
+hard_fails:
+  - incorrect_data_or_control_flow
+  - missing_core_module
+  - generic_business_flowchart_style
+  - mixed_training_inference_eval_paths
+  - unreadable_density

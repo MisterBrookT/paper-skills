@@ -12,17 +12,32 @@ symbols, layout conventions, and expert criteria.
 
 ## First Milestone
 
-Circuit seed bench:
+Integrated-circuit seed bench:
 
 ```text
 query -> baseline -> expert failure notes -> rubric -> skill v0 -> held-out eval
 ```
 
-## Planned Domains
+## Domain Cases
 
-- circuits;
-- AI systems;
+| Domain | Path | Status | Figure Families |
+| --- | --- | --- | --- |
+| Integrated circuits | `domains/integrated-circuits/` | seed | analog schematic illustrations, switched-capacitor diagrams, architecture blocks |
+| Computer science | `domains/computer-science/` | seed | system diagrams, model architecture, pipeline/dataflow, evaluation setup |
+
+Planned later:
+
 - biology mechanisms/pathways;
 - finance figures;
 - materials mechanisms.
 
+## Shared Loop
+
+Every domain should define:
+
+- inputs;
+- figure families;
+- hard-fail criteria;
+- visual grammar;
+- editable output format;
+- benchmark cases.

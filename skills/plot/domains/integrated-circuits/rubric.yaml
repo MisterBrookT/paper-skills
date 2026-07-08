@@ -1,0 +1,24 @@
+domain: integrated-circuits
+status: seed
+figure_families:
+  - transistor_level_analog_schematic
+  - switched_capacitor_schematic
+  - differential_circuit_schematic
+criteria:
+  structure:
+    description: Circuit modules, components, ports, and connectivity preserve the source design.
+  symbols:
+    description: MOS, capacitors, switches, supplies, grounds, and ports use recognizable circuit conventions.
+  layout:
+    description: Symmetry, signal flow, hierarchy, and line routing match analog schematic reading habits.
+  annotations:
+    description: Phase labels, device sizes, common-mode markers, and key node names are retained.
+  readability:
+    description: Line crossings, label density, spacing, and emphasis support paper reading.
+hard_fails:
+  - changes_connectivity
+  - uses_generic_boxes_instead_of_circuit_symbols
+  - omits_required_ports_or_phase_labels
+  - unreadable_line_crossings
+  - breaks_required_symmetry
+

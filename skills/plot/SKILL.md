@@ -35,12 +35,13 @@ Use this skill when the user needs:
 
 1. Identify domain and figure family.
 2. Collect source materials and constraints.
-3. Convert inputs into an auditable drawing spec.
-4. Produce a baseline figure in an editable format when possible.
-5. Ask for or infer domain-specific failure criteria.
-6. Distill failures into rubric items and skill rules.
-7. Re-run generation with the updated rules.
-8. Save benchmark artifacts when the task is part of evaluation.
+3. Read the matching domain note under `domains/` when available.
+4. Convert inputs into an auditable drawing spec.
+5. Produce a baseline figure in an editable format when possible.
+6. Ask for or infer domain-specific failure criteria.
+7. Distill failures into rubric items and skill rules.
+8. Re-run generation with the updated rules.
+9. Save benchmark artifacts when the task is part of evaluation.
 
 ## Domain Contract
 
@@ -65,7 +66,12 @@ Prefer editable outputs over flat images:
 
 ## First Domain: Circuit Figures
 
-Initial seed domain:
+Initial seed domains live under:
+
+- `domains/integrated-circuits/`
+- `domains/computer-science/`
+
+Integrated-circuit seed family:
 
 ```text
 transistor-level analog schematic illustration
@@ -77,4 +83,18 @@ paper text, hand sketches, component tables, and visual references.
 
 The target is not circuit design automation. The target is scientific figure
 automation for readable, editable, publication-ready circuit illustrations.
+
+## Second Domain: Computer Science Figures
+
+Computer-science seed families:
+
+- system diagrams;
+- model architecture diagrams;
+- pipeline and dataflow figures;
+- evaluation setup figures;
+- benchmark result figures when ordinary charts are not enough.
+
+The target is not generic slide diagrams. The target is paper-ready CS figures
+with clear modules, data flow, experimental structure, and reproducible
+editing handles.
 

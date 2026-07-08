@@ -1,49 +1,75 @@
 # Paper Skills
 
-Journal-ready AI skills for every research discipline.
+**Journal-ready AI skills for every research discipline.**
 
-Paper Skills is an open skill library for research-paper workflows. It starts
-as a curated, agent-readable skill hub and leaves room for a future product
-surface.
+Paper Skills is an open skill library for research-paper workflows. It curates
+strong public academic skills and adds first-party work where research papers
+still need domain taste: scientific figures.
 
-## Positioning
+## What This Is
 
-Paper Skills has two layers:
+Most academic AI skills help with writing, literature review, citation checks,
+or reviewer response. Those are important, but many good open projects already
+cover them.
 
-- Curated research skills: writing, citation, review response, literature
-  workflows, and venue packs can integrate or reference the best public skill
-  projects instead of rebuilding everything.
-- Original plot work: `skills/plot` is the flagship module for
-  discipline-aware scientific figures.
+Paper Skills starts from a sharper thesis:
 
-## Why plot first
+> Every discipline has its own research-paper language. That language includes
+> prose, evidence, citations, review expectations, and figures.
 
-Many writing and polishing workflows are already well-covered by public
-academic skill packs. Scientific figures remain more domain-sensitive:
-circuits, biology pathways, AI system diagrams, finance figures, and materials
-mechanism diagrams each use different inputs, symbols, visual grammar, and
-expert criteria.
+The first original module is `plot`: discipline-aware scientific figures for
+papers.
 
-`plot` is where Paper Skills should be original:
+## Flagship: `plot`
+
+`skills/plot` turns domain materials into editable, paper-ready figures.
 
 ```text
 domain input
-  -> baseline generation
+  -> baseline figure
   -> expert failure notes
   -> rubric
   -> skill evolution
   -> adaptive benchmark
 ```
 
+Initial cases:
+
+- **Integrated circuits**: transistor-level analog schematic illustrations from
+  netlists, EDA screenshots, paper text, sketches, and component tables.
+- **Computer science**: system diagrams, model architecture figures, pipelines,
+  dataflow diagrams, and benchmark/evaluation setup figures.
+
+The goal is not generic prettiness. The goal is for domain experts to say:
+this looks like a figure from our field.
+
+## Curated Skills
+
+Writing, citation, review, and venue-specific packs begin as curated entry
+points. Paper Skills should integrate or reference strong public skill projects
+instead of copying them blindly.
+
+```text
+skills/
+  plot/          first-party discipline-aware figure workflow
+  writing/       curated writing and polishing entry points
+  citation/      curated citation and reference checks
+  review/        reviewer response and manuscript QA
+  venue-packs/   journal- and discipline-specific packs
+```
+
 ## Repository Layout
 
 ```text
 skills/
-  plot/          discipline-aware scientific figure workflow
-  writing/       curated writing/polishing entry points
-  citation/      curated citation and reference checks
-  review/        reviewer response and manuscript QA
-  venue-packs/   journal- and discipline-specific packs
+  plot/
+    domains/
+      integrated-circuits/
+      computer-science/
+  writing/
+  citation/
+  review/
+  venue-packs/
 docs/
   academic-skill-pack-survey.md
 integrations/
@@ -53,5 +79,5 @@ registry.yaml
 
 ## Status
 
-Draft scaffold. Do not treat current skills as production-ready.
+Draft scaffold. APIs, install flow, and copied integrations are not stable yet.
 

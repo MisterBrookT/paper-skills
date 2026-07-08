@@ -8,6 +8,13 @@ skills:
     status: draft
     role: flagship
     summary: Discipline-aware scientific figure workflow.
+    domains:
+      - id: integrated-circuits
+        path: skills/plot/domains/integrated-circuits/README.md
+        status: seed
+      - id: computer-science
+        path: skills/plot/domains/computer-science/README.md
+        status: seed
   - id: writing
     path: skills/writing/README.md
     status: placeholder
@@ -28,4 +35,3 @@ skills:
     status: placeholder
     role: curated
     summary: Journal- and discipline-specific workflow packs.
-
