@@ -57,7 +57,8 @@ paper-skills
 
 ## Near-Term Next Steps
 
-1. Add license decision before external content is copied.
+1. Keep the integration catalog current with license status and attribution
+   notes.
 2. Fill `skills/plot` with the circuit seed-bench workflow.
 3. Create integration notes for 5-8 upstream projects with license status.
 4. Add one demo prompt per skill entry.

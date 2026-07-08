@@ -9,6 +9,7 @@
     <a href="README.zh.md">中文</a>
     · <a href="ACKNOWLEDGEMENTS.md">Acknowledgements</a>
     · <a href="docs/academic-skill-pack-survey.md">Survey</a>
+    · <a href="integrations/catalog.md">Integration Catalog</a>
   </p>
   <p>
     <a href="https://github.com/MisterBrookT/paper-skills/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/MisterBrookT/paper-skills?style=flat-square"></a>
@@ -101,7 +102,7 @@ See [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md).
 
 - Make `plot` demo cases concrete for integrated circuits and computer science.
 - Add minimal examples for `writing`, `citation`, `review`, and `venue-packs`.
-- Turn the survey into an integration catalog with license status.
+- Expand the integration catalog with attribution notes and adapter plans.
 - Keep upstream attribution and contribution rules explicit as integrations land.
 - Add a stable install/update command after the first usable skill set.
 

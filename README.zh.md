@@ -8,6 +8,7 @@
     <a href="README.md">English</a>
     · <a href="ACKNOWLEDGEMENTS.md">鸣谢</a>
     · <a href="docs/academic-skill-pack-survey.md">调研</a>
+    · <a href="integrations/catalog.md">整合目录</a>
   </p>
   <p>
     <a href="https://github.com/MisterBrookT/paper-skills/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/MisterBrookT/paper-skills?style=flat-square"></a>
@@ -87,7 +88,7 @@ Paper Skills 会优先使用 adapter 和引用，而不是直接复制外部 ski
 
 - 把 `plot` 的集成电路和计算机科学 demo 做具体。
 - 给 `writing`、`citation`、`review`、`venue-packs` 补最小示例。
-- 把调研结果变成带 license 状态的整合目录。
+- 继续扩展整合目录，补上署名说明和 adapter 计划。
 - 随着整合推进，持续明确上游署名和贡献规则。
 - 第一批 skill 可用后，再加稳定安装命令。
 
