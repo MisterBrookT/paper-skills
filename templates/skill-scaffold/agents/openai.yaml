@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Skill Name"
+  short_description: "Short UI-facing description"
+  default_prompt: "Use $paper-skill-name to [task]."

@@ -31,7 +31,16 @@ superpowers 的纪律性
 
 ## Superpowers 模式
 
-Superpowers 的关键不是格式，而是质量纪律：
+Superpowers 的格式很值得直接借：
+
+- bundle root 有 `README.md`、`LICENSE`、`.codex-plugin/plugin.json`、`assets/`、`skills/`。
+- 每个 skill 是一个独立目录，顶层 `SKILL.md` 是唯一入口。
+- 同目录放少量 supporting files，例如 `*-prompt.md`、`testing-anti-patterns.md`、`find-polluter.sh`。
+- `agents/openai.yaml` 只放 UI 元数据：`display_name`、`short_description`。
+- 只有重资料才进 `references/`、`examples/`、`scripts/`。
+- flowchart 用 fenced `dot` block，配合 `render-graphs.js` 渲染。
+
+Superpowers 的质量纪律也要借：
 
 - `description` 只写触发条件，不写 workflow 摘要，避免 agent 只读描述就跳过正文。
 - skill 是过程文档的 TDD：先观察不带 skill 的失败，再写最小规则，再用压力场景验证。
@@ -45,16 +54,17 @@ Paper Skills 应采用“两层规约”：
 
 ## 推荐 Paper Skills Schema
 
-每个 skill pack 用这个结构：
+每个 skill pack 默认用 superpowers 风格：
 
 ```text
 skills/<area>/
   SKILL.md                 # agent 入口；短 router；description 只写触发
+  agents/openai.yaml        # UI 元数据
   README.md                # 人类说明；demo prompt；状态
-  references/              # 重材料：venue rules, official-source map, rubrics
-  templates/               # 可复制输出模板：review table, rebuttal letter, figure spec
-  scripts/                 # 可执行工具：citation audit, figure export, checks
-  domains/ or venues/      # 学科 / 期刊 / 会议分包
+  *-prompt.md              # 可选；subagent/reviewer prompt
+  references/              # 可选；重材料
+  scripts/                 # 可选；可执行工具
+  examples/                # 可选；长例子
 ```
 
 `SKILL.md` 建议固定为：
