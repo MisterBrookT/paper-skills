@@ -47,6 +47,20 @@ Superpowers 的质量纪律也要借：
 - 好 skill 有明确 “Iron Law / Red Flags / Common Rationalizations”，适合约束 agent 容易偷懒的行为。
 - 不为普通参考资料强上 TDD。核心纪律 skill 要 TDD；普通 adapter / venue card 用 lighter review 即可。
 
+## 本地 authoring-skills
+
+`/Users/tangyinghao/workspace/my-agent-config/skills/authoring-skills/SKILL.md` 更适合作为 Paper Skills 的直接规范来源。
+
+它像 superpowers 的压缩版：
+
+- 不要求所有 skill 都跑完整 RED/GREEN/REFACTOR；
+- 明确 `description = WHEN, not WHAT`；
+- 明确一个顶层 `SKILL.md`，嵌套材料按需读取；
+- 明确 plain markdown，避免 Claude-only `@import`；
+- 面向多 harness：Claude Code / Codex / OpenCode 共用同一份源。
+
+因此 Paper Skills 的实际写法：以 `authoring-skills` 为硬约束，以 superpowers 为高级样板。
+
 Paper Skills 应采用“两层规约”：
 
 1. 普通 skill：遵守本仓库轻量 schema。
