@@ -1,0 +1,64 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F7F1E7"/>
+  <path d="M0 110H1600M0 220H1600M0 330H1600M0 440H1600M0 550H1600M0 660H1600M0 770H1600M160 0V900M320 0V900M480 0V900M640 0V900M800 0V900M960 0V900M1120 0V900M1280 0V900M1440 0V900" stroke="#E7DDCF" stroke-width="1"/>
+  <rect x="120" y="92" width="1360" height="716" rx="34" fill="#FFFDF8" stroke="#1F2933" stroke-width="5"/>
+  <text x="800" y="177" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="68" font-weight="800" fill="#1F2933">Paper Skills</text>
+  <text x="800" y="226" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="30" fill="#58616C">Journal-ready AI skills for every research discipline</text>
+
+  <rect x="640" y="304" width="320" height="164" rx="24" fill="#1F2933"/>
+  <text x="800" y="362" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="#FFFDF8">research paper</text>
+  <text x="800" y="407" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" fill="#D9E6F2">ideas -> manuscript -> figures -> review</text>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="186" y="286" width="255" height="124" rx="20" fill="#EAF3F8" stroke="#2C5F7C" stroke-width="4"/>
+    <text x="314" y="342" text-anchor="middle" font-size="32" font-weight="800" fill="#1F2933">writing</text>
+    <text x="314" y="378" text-anchor="middle" font-size="20" fill="#52606D">polish · translate · argue</text>
+
+    <rect x="186" y="484" width="255" height="124" rx="20" fill="#EEF6EA" stroke="#5D7C4B" stroke-width="4"/>
+    <text x="314" y="540" text-anchor="middle" font-size="32" font-weight="800" fill="#1F2933">citation</text>
+    <text x="314" y="576" text-anchor="middle" font-size="20" fill="#52606D">search · verify · export</text>
+
+    <rect x="1159" y="286" width="255" height="124" rx="20" fill="#FFF0E3" stroke="#C8652D" stroke-width="4"/>
+    <text x="1287" y="342" text-anchor="middle" font-size="32" font-weight="800" fill="#1F2933">review</text>
+    <text x="1287" y="378" text-anchor="middle" font-size="20" fill="#52606D">QA · rebuttal · revision</text>
+
+    <rect x="1159" y="484" width="255" height="124" rx="20" fill="#F0ECFA" stroke="#6B5CA5" stroke-width="4"/>
+    <text x="1287" y="540" text-anchor="middle" font-size="32" font-weight="800" fill="#1F2933">venue packs</text>
+    <text x="1287" y="576" text-anchor="middle" font-size="20" fill="#52606D">Nature · IEEE · Cell · ACM</text>
+
+    <rect x="605" y="580" width="390" height="120" rx="24" fill="#FFE7D2" stroke="#D16C33" stroke-width="5"/>
+    <text x="800" y="634" text-anchor="middle" font-size="35" font-weight="900" fill="#1F2933">plot</text>
+    <text x="800" y="673" text-anchor="middle" font-size="22" fill="#52606D">discipline-aware scientific figures</text>
+  </g>
+
+  <g stroke="#1F2933" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M441 348H620"/>
+    <path d="M620 348L604 336M620 348L604 360"/>
+    <path d="M441 546H570C610 546 626 520 644 478"/>
+    <path d="M644 478L644 496M644 478L628 489"/>
+    <path d="M960 348H1159"/>
+    <path d="M1159 348L1143 336M1159 348L1143 360"/>
+    <path d="M960 478C982 520 1002 546 1052 546H1159"/>
+    <path d="M1159 546L1143 534M1159 546L1143 558"/>
+    <path d="M800 468V580"/>
+    <path d="M800 580L788 564M800 580L812 564"/>
+  </g>
+
+  <g transform="translate(555 735)" font-family="Inter, Arial, sans-serif">
+    <rect x="0" y="0" width="490" height="54" rx="27" fill="#FFFDF8" stroke="#1F2933" stroke-width="3"/>
+    <circle cx="42" cy="27" r="13" fill="#2C5F7C"/>
+    <text x="70" y="35" font-size="20" fill="#1F2933">domain input</text>
+    <path d="M214 27H254" stroke="#1F2933" stroke-width="3" stroke-linecap="round"/>
+    <path d="M254 27L244 20M254 27L244 34" stroke="#1F2933" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="289" cy="27" r="13" fill="#D16C33"/>
+    <text x="317" y="35" font-size="20" fill="#1F2933">rubric + skill</text>
+  </g>
+
+  <g stroke="#1F2933" stroke-width="3" fill="none" opacity="0.95">
+    <path d="M720 625H760L775 604H805L820 625H878"/>
+    <path d="M696 652H740M740 652V680M740 680H694M860 652H906M860 652V680M860 680H906"/>
+    <path d="M1249 518H1327M1249 548H1327M1249 578H1327M1265 518V578M1305 518V578"/>
+    <path d="M259 520L314 490L369 520L314 550L259 520Z"/>
+    <path d="M314 550V592M259 520V562L314 592L369 562V520"/>
+  </g>
+</svg>

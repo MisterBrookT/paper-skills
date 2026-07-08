@@ -14,3 +14,13 @@ Paper Skills should curate before rebuilding. Candidate integration types:
 - Prefer wrappers over copy-paste when upstream is active.
 - Keep `plot` original and first-party.
 
+## Initial Acknowledgement List
+
+- `Yuan1z0825/nature-skills`
+- `Imbad0202/academic-research-skills`
+- `Orchestra-Research/AI-Research-SKILLs`
+- `Galaxy-Dawn/claude-scholar`
+- `google-deepmind/science-skills`
+- `brycewang-stanford/Awesome-Journal-Skills`
+- `Boom5426/Nature-Paper-Skills`
+- `jaechang-hits/SciAgent-Skills`
