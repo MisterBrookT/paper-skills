@@ -102,14 +102,16 @@ See [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md).
 - Make `plot` demo cases concrete for integrated circuits and computer science.
 - Add minimal examples for `writing`, `citation`, `review`, and `venue-packs`.
 - Turn the survey into an integration catalog with license status.
-- Decide repository license and contribution rules.
+- Keep upstream attribution and contribution rules explicit as integrations land.
 - Add a stable install/update command after the first usable skill set.
 
 ## Star History
 
+Live chart by [`star-history/star-history`](https://github.com/star-history/star-history).
+
 <p>
-  <a href="https://star-history.com/#MisterBrookT/paper-skills&Date">
-    <img src="https://api.star-history.com/svg?repos=MisterBrookT/paper-skills&type=Date" alt="Star History Chart">
+  <a href="https://www.star-history.com/?type=date&repos=MisterBrookT%2Fpaper-skills">
+    <img alt="Open Star History" src="https://img.shields.io/badge/star--history-open-1f2933?style=flat-square">
   </a>
 </p>
 
