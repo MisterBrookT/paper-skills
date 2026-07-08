@@ -9,6 +9,8 @@
     <a href="README.zh.md">中文</a>
     · <a href="ACKNOWLEDGEMENTS.md">Acknowledgements</a>
     · <a href="docs/academic-skill-pack-survey.md">Survey</a>
+    · <a href="docs/skill-authoring-prior-art.zh.md">Authoring Prior Art</a>
+    · <a href="docs/paper-skills-skill-schema.zh.md">Skill Schema</a>
     · <a href="integrations/catalog.md">Integration Catalog</a>
   </p>
   <p>

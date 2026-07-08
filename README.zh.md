@@ -8,6 +8,8 @@
     <a href="README.md">English</a>
     · <a href="ACKNOWLEDGEMENTS.md">鸣谢</a>
     · <a href="docs/academic-skill-pack-survey.md">调研</a>
+    · <a href="docs/skill-authoring-prior-art.zh.md">写法调研</a>
+    · <a href="docs/paper-skills-skill-schema.zh.md">Skill 规范</a>
     · <a href="integrations/catalog.md">整合目录</a>
   </p>
   <p>
