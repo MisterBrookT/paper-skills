@@ -13,7 +13,7 @@
     <a href="https://github.com/MisterBrookT/paper-skills/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/MisterBrookT/paper-skills?style=flat-square"></a>
     <a href="https://github.com/MisterBrookT/paper-skills"><img alt="Status" src="https://img.shields.io/badge/status-draft-8a6f3d?style=flat-square"></a>
     <a href="https://github.com/MisterBrookT/paper-skills"><img alt="Skills" src="https://img.shields.io/badge/skills-writing%20%7C%20citation%20%7C%20review%20%7C%20plot-1f2933?style=flat-square"></a>
-    <a href="https://github.com/MisterBrookT/paper-skills"><img alt="License" src="https://img.shields.io/badge/license-TBD-lightgrey?style=flat-square"></a>
+    <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square"></a>
   </p>
 </div>
 
@@ -93,14 +93,12 @@ Paper Skills 会优先使用 adapter 和引用，而不是直接复制外部 ski
 
 ## Star History
 
-实时图表来自 [`star-history/star-history`](https://github.com/star-history/star-history)。
-
 <p>
   <a href="https://star-history.com/#MisterBrookT/paper-skills&Date">
-    <img alt="Open Star History" src="https://img.shields.io/badge/star--history-open-1f2933?style=flat-square">
+    <img src="https://api.star-history.com/svg?repos=MisterBrookT/paper-skills&type=Date" alt="Star History Chart">
   </a>
 </p>
 
 ## License
 
-待定。许可证和署名规则确定前，不要把外部 skill 内容复制进仓库。
+MIT。外部 skill 的整合仍需单独检查上游许可证并保留署名。
