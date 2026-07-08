@@ -101,7 +101,7 @@ See [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md).
 ## Roadmap
 
 - Make `plot` demo cases concrete for integrated circuits and computer science.
-- Add minimal examples for `writing`, `citation`, `review`, and `venue-packs`.
+- Expand demos into reusable benchmark cases across all skill areas.
 - Expand the integration catalog with attribution notes and adapter plans.
 - Keep upstream attribution and contribution rules explicit as integrations land.
 - Add a stable install/update command after the first usable skill set.

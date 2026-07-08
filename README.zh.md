@@ -87,7 +87,7 @@ Paper Skills 会优先使用 adapter 和引用，而不是直接复制外部 ski
 ## 本月路线
 
 - 把 `plot` 的集成电路和计算机科学 demo 做具体。
-- 给 `writing`、`citation`、`review`、`venue-packs` 补最小示例。
+- 把各 skill 的 demo 扩展成可复用 benchmark case。
 - 继续扩展整合目录，补上署名说明和 adapter 计划。
 - 随着整合推进，持续明确上游署名和贡献规则。
 - 第一批 skill 可用后，再加稳定安装命令。
