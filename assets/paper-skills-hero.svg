@@ -26,9 +26,10 @@
     <text x="1287" y="540" text-anchor="middle" font-size="32" font-weight="800" fill="#1F2933">venue packs</text>
     <text x="1287" y="576" text-anchor="middle" font-size="20" fill="#52606D">Nature · IEEE · Cell · ACM</text>
 
-    <rect x="605" y="580" width="390" height="120" rx="24" fill="#FFE7D2" stroke="#D16C33" stroke-width="5"/>
-    <text x="800" y="634" text-anchor="middle" font-size="35" font-weight="900" fill="#1F2933">plot</text>
-    <text x="800" y="673" text-anchor="middle" font-size="22" fill="#52606D">discipline-aware scientific figures</text>
+    <rect x="560" y="566" width="480" height="150" rx="24" fill="#FFE7D2" stroke="#D16C33" stroke-width="5"/>
+    <text x="800" y="616" text-anchor="middle" font-size="35" font-weight="900" fill="#1F2933">plot</text>
+    <text x="800" y="653" text-anchor="middle" font-size="22" fill="#52606D">field-specific scientific figures</text>
+    <text x="800" y="690" text-anchor="middle" font-size="19" fill="#6B7280">materials · medicine · traffic · circuits · CS</text>
   </g>
 
   <g stroke="#1F2933" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
@@ -40,18 +41,22 @@
     <path d="M1159 348L1143 336M1159 348L1143 360"/>
     <path d="M960 478C982 520 1002 546 1052 546H1159"/>
     <path d="M1159 546L1143 534M1159 546L1143 558"/>
-    <path d="M800 468V580"/>
-    <path d="M800 580L788 564M800 580L812 564"/>
+    <path d="M800 468V566"/>
+    <path d="M800 566L788 550M800 566L812 550"/>
   </g>
 
-  <g transform="translate(555 735)" font-family="Inter, Arial, sans-serif">
-    <rect x="0" y="0" width="490" height="54" rx="27" fill="#FFFDF8" stroke="#1F2933" stroke-width="3"/>
-    <circle cx="42" cy="27" r="13" fill="#2C5F7C"/>
-    <text x="70" y="35" font-size="20" fill="#1F2933">domain input</text>
-    <path d="M214 27H254" stroke="#1F2933" stroke-width="3" stroke-linecap="round"/>
-    <path d="M254 27L244 20M254 27L244 34" stroke="#1F2933" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="289" cy="27" r="13" fill="#D16C33"/>
-    <text x="317" y="35" font-size="20" fill="#1F2933">rubric + skill</text>
+  <g transform="translate(342 745)" font-family="Inter, Arial, sans-serif">
+    <rect x="0" y="0" width="916" height="54" rx="27" fill="#FFFDF8" stroke="#1F2933" stroke-width="3"/>
+    <circle cx="48" cy="27" r="11" fill="#7C9A5D"/>
+    <text x="72" y="35" font-size="20" fill="#1F2933">materials</text>
+    <circle cx="208" cy="27" r="11" fill="#C8652D"/>
+    <text x="232" y="35" font-size="20" fill="#1F2933">medicine</text>
+    <circle cx="370" cy="27" r="11" fill="#2C5F7C"/>
+    <text x="394" y="35" font-size="20" fill="#1F2933">traffic</text>
+    <circle cx="514" cy="27" r="11" fill="#6B5CA5"/>
+    <text x="538" y="35" font-size="20" fill="#1F2933">integrated circuits</text>
+    <circle cx="756" cy="27" r="11" fill="#D16C33"/>
+    <text x="780" y="35" font-size="20" fill="#1F2933">computer science</text>
   </g>
 
   <g stroke="#1F2933" stroke-width="3" fill="none" opacity="0.95">

@@ -30,18 +30,10 @@ Paper Skills turns those conventions into agent-readable skills.
 | `venue-packs` | Capture journal-, conference-, and discipline-specific expectations. | placeholder |
 | `plot` | Generate editable, discipline-aware scientific figures. | seed |
 
-### Flagship Work: `plot`
+### Field-Specific Figures: `plot`
 
-`skills/plot` turns domain materials into editable, paper-ready figures.
-
-```text
-domain input
-  -> baseline figure
-  -> expert failure notes
-  -> rubric
-  -> skill evolution
-  -> adaptive benchmark
-```
+`skills/plot` is for field-specific scientific figures. It invites the
+community to build figure skills for different disciplines.
 
 Initial cases:
 
@@ -49,6 +41,16 @@ Initial cases:
   netlists, EDA screenshots, paper text, sketches, and component tables.
 - **Computer science**: system diagrams, model architecture figures, pipelines,
   dataflow diagrams, and benchmark/evaluation setup figures.
+
+Planned community directions:
+
+- materials science;
+- medicine and biomedicine;
+- traffic and transportation;
+- integrated circuits;
+- computer science;
+- biology;
+- finance.
 
 The goal is not generic prettiness. The goal is for domain experts to say:
 this looks like a figure from our field.
@@ -115,23 +117,24 @@ Paper Skills 的目标是把这些隐性规范沉淀成 agent 可读、可复用
 | `venue-packs` | 期刊、会议和学科特定规范包。 | 占位 |
 | `plot` | 可编辑、学科特质化的科研图生成。 | 种子 |
 
-### 当前原创重点：`plot`
+### 学科特质化科研图：`plot`
 
-`plot` 用来把不同学科的原始材料转成论文可用、可编辑、符合领域习惯的科研图。
-
-```text
-领域输入
-  -> baseline 图
-  -> 专家失败批注
-  -> rubric
-  -> skill evolution
-  -> adaptive benchmark
-```
+`plot` 用来沉淀不同学科的科研图表达方式，并邀请社区一起为不同领域做特制 skill。
 
 第一批 case：
 
 - **集成电路**：从 netlist、EDA 截图、论文文字、手绘草图和元件表生成晶体管级模拟电路 schematic 插图。
 - **计算机科学**：生成系统图、模型结构图、pipeline、dataflow 和实验设置图。
+
+后续方向：
+
+- 材料科学；
+- 医学和生物医学；
+- 交通与运输；
+- 集成电路；
+- 计算机科学；
+- 生物学；
+- 金融。
 
 目标不是“好看一点”，而是让领域专家认可：这张图像本领域论文里的图。
 
