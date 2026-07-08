@@ -1,0 +1,31 @@
+name: paper-skills
+display_name: Paper Skills
+tagline: Journal-ready AI skills for every research discipline.
+status: draft
+skills:
+  - id: plot
+    path: skills/plot/SKILL.md
+    status: draft
+    role: flagship
+    summary: Discipline-aware scientific figure workflow.
+  - id: writing
+    path: skills/writing/README.md
+    status: placeholder
+    role: curated
+    summary: Writing, polishing, and manuscript argumentation entry points.
+  - id: citation
+    path: skills/citation/README.md
+    status: placeholder
+    role: curated
+    summary: Citation search, verification, and reference-management entry points.
+  - id: review
+    path: skills/review/README.md
+    status: placeholder
+    role: curated
+    summary: Reviewer simulation, rebuttal, and manuscript QA entry points.
+  - id: venue-packs
+    path: skills/venue-packs/README.md
+    status: placeholder
+    role: curated
+    summary: Journal- and discipline-specific workflow packs.
+
