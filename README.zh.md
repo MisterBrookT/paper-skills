@@ -6,11 +6,6 @@
   </p>
   <p>
     <a href="README.md">English</a>
-    · <a href="ACKNOWLEDGEMENTS.md">鸣谢</a>
-    · <a href="docs/academic-skill-pack-survey.md">调研</a>
-    · <a href="docs/skill-authoring-prior-art.zh.md">写法调研</a>
-    · <a href="docs/paper-skills-skill-schema.zh.md">Skill 规范</a>
-    · <a href="integrations/catalog.md">整合目录</a>
   </p>
   <p>
     <a href="https://github.com/MisterBrookT/paper-skills/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/MisterBrookT/paper-skills?style=flat-square"></a>
@@ -96,13 +91,7 @@ Paper Skills 会优先使用 adapter 和引用，而不是直接复制外部 ski
 
 ## Star History
 
-实时图表由 [`star-history/star-history`](https://github.com/star-history/star-history) 提供。
-
-<p>
-  <a href="https://www.star-history.com/?type=date&repos=MisterBrookT%2Fpaper-skills">
-    <img alt="Open Star History" src="https://img.shields.io/badge/star--history-open-1f2933?style=flat-square">
-  </a>
-</p>
+![Star History](docs/readme-star-history.svg)
 
 ## License
 

@@ -7,11 +7,6 @@
   </p>
   <p>
     <a href="README.zh.md">中文</a>
-    · <a href="ACKNOWLEDGEMENTS.md">Acknowledgements</a>
-    · <a href="docs/academic-skill-pack-survey.md">Survey</a>
-    · <a href="docs/skill-authoring-prior-art.zh.md">Authoring Prior Art</a>
-    · <a href="docs/paper-skills-skill-schema.zh.md">Skill Schema</a>
-    · <a href="integrations/catalog.md">Integration Catalog</a>
   </p>
   <p>
     <a href="https://github.com/MisterBrookT/paper-skills/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/MisterBrookT/paper-skills?style=flat-square"></a>
@@ -110,13 +105,7 @@ See [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md).
 
 ## Star History
 
-Live chart by [`star-history/star-history`](https://github.com/star-history/star-history).
-
-<p>
-  <a href="https://www.star-history.com/?type=date&repos=MisterBrookT%2Fpaper-skills">
-    <img alt="Open Star History" src="https://img.shields.io/badge/star--history-open-1f2933?style=flat-square">
-  </a>
-</p>
+![Star History](docs/readme-star-history.svg)
 
 ## License
 

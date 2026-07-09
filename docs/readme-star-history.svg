@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="320" viewBox="0 0 820 320" role="img" aria-labelledby="title desc">
+  <title id="title">Paper Skills Star History</title>
+  <desc id="desc">GitHub star history for MisterBrookT/paper-skills from 2026-07-08 to 2026-07-09, rising from 1 to 5 stars.</desc>
+  <rect width="820" height="320" fill="#ffffff"/>
+  <rect x="0.5" y="0.5" width="819" height="319" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="42" y="48" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#24292f">Star History</text>
+  <text x="42" y="76" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#57606a">MisterBrookT/paper-skills · generated from GitHub stargazer timestamps</text>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#57606a">
+    <line x1="80" y1="246" x2="760" y2="246" stroke="#d8dee4"/>
+    <line x1="80" y1="207" x2="760" y2="207" stroke="#d8dee4" stroke-dasharray="4 4"/>
+    <line x1="80" y1="168" x2="760" y2="168" stroke="#d8dee4" stroke-dasharray="4 4"/>
+    <line x1="80" y1="129" x2="760" y2="129" stroke="#d8dee4" stroke-dasharray="4 4"/>
+    <line x1="80" y1="90" x2="760" y2="90" stroke="#d8dee4" stroke-dasharray="4 4"/>
+
+    <line x1="80" y1="90" x2="80" y2="246" stroke="#8c959f"/>
+    <line x1="80" y1="246" x2="760" y2="246" stroke="#8c959f"/>
+
+    <text x="55" y="250" text-anchor="end">1</text>
+    <text x="55" y="211" text-anchor="end">2</text>
+    <text x="55" y="172" text-anchor="end">3</text>
+    <text x="55" y="133" text-anchor="end">4</text>
+    <text x="55" y="94" text-anchor="end">5</text>
+
+    <text x="80" y="276" text-anchor="middle">Jul 8</text>
+    <text x="760" y="276" text-anchor="middle">Jul 9</text>
+  </g>
+
+  <polyline fill="none" stroke="#0969da" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
+    points="80,246 334,207 344,168 381,129 760,90"/>
+
+  <g fill="#ffffff" stroke="#0969da" stroke-width="3">
+    <circle cx="80" cy="246" r="5"/>
+    <circle cx="334" cy="207" r="5"/>
+    <circle cx="344" cy="168" r="5"/>
+    <circle cx="381" cy="129" r="5"/>
+    <circle cx="760" cy="90" r="5"/>
+  </g>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#24292f">
+    <text x="88" y="235">1</text>
+    <text x="342" y="196">2</text>
+    <text x="352" y="157">3</text>
+    <text x="389" y="118">4</text>
+    <text x="742" y="79">5</text>
+  </g>
+</svg>
