@@ -91,7 +91,13 @@ Paper Skills 会优先使用 adapter 和引用，而不是直接复制外部 ski
 
 ## Star History
 
-![Star History](docs/readme-star-history.svg)
+<a href="https://www.star-history.com/?repos=MisterBrookT%2Fpaper-skills&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MisterBrookT/paper-skills&type=date&theme=dark&legend=top-left&sealed_token=Bl9TTZcLJ8xuZ2JiXJvdoqhqltSIwOV0kKxKUnRZ_VGoj2Az5wq06QZkHkCVYw4rQw_kAqO7f-nDVktPAUDcI_KAaTxewLISn-S4dzF_yZBnb9tuxFNd--xCx-wR5deSpfzUMllQqVAgbCdHnfjYBEm28rXHnzr_8ny-SFmxVbua99Xg1hNf0TzPVCrA" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=MisterBrookT/paper-skills&type=date&legend=top-left&sealed_token=Bl9TTZcLJ8xuZ2JiXJvdoqhqltSIwOV0kKxKUnRZ_VGoj2Az5wq06QZkHkCVYw4rQw_kAqO7f-nDVktPAUDcI_KAaTxewLISn-S4dzF_yZBnb9tuxFNd--xCx-wR5deSpfzUMllQqVAgbCdHnfjYBEm28rXHnzr_8ny-SFmxVbua99Xg1hNf0TzPVCrA" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MisterBrookT/paper-skills&type=date&legend=top-left&sealed_token=Bl9TTZcLJ8xuZ2JiXJvdoqhqltSIwOV0kKxKUnRZ_VGoj2Az5wq06QZkHkCVYw4rQw_kAqO7f-nDVktPAUDcI_KAaTxewLISn-S4dzF_yZBnb9tuxFNd--xCx-wR5deSpfzUMllQqVAgbCdHnfjYBEm28rXHnzr_8ny-SFmxVbua99Xg1hNf0TzPVCrA" />
+ </picture>
+</a>
 
 ## License
 
