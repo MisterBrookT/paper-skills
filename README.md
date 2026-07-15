@@ -1,9 +1,10 @@
 <div align="center">
+  <img src="assets/paper-skills-icon.png" width="96" alt="Paper Skills icon">
   <h1>Paper Skills</h1>
-  <p><strong>Journal-ready AI skills for every research discipline.</strong></p>
+  <p><strong>Field-specific AI skills for research papers.</strong></p>
   <p>
-    A public skill library for writing, citations, review, venue conventions,
-    and field-specific scientific figures.
+    Writing, citations, review, venue conventions, and scientific figures —
+    shaped by each discipline.
   </p>
   <p>
     <a href="README.zh.md">中文</a>
@@ -60,6 +61,18 @@ Initial domain seeds:
 
 Planned community directions include materials science, medicine and
 biomedicine, traffic and transportation, biology, and finance.
+
+## Contributors
+
+Paper Skills credits contributors by the fields and work they contribute, not
+only by commit count.
+
+| Contributor | Background | Fields | Contributions |
+| --- | --- | --- | --- |
+| [Bubu](https://github.com/MisterBrookT) | @KoinaAI · CS PhD @ ZJU | Computer science, scientific visualization, AI agents | Creator, project direction, `plot` |
+
+Contributed a skill, domain pack, benchmark, review, or integration? Add your
+name, background, fields, and contribution to this table in the same pull request.
 
 ## Repository Layout
 

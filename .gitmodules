@@ -1,0 +1,3 @@
+[submodule "skill2"]
+	path = skill2
+	url = https://github.com/MisterBrookT/skill2.git

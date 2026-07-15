@@ -1,64 +1,88 @@
-<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1600" height="900" fill="#F7F1E7"/>
-  <path d="M0 110H1600M0 220H1600M0 330H1600M0 440H1600M0 550H1600M0 660H1600M0 770H1600M160 0V900M320 0V900M480 0V900M640 0V900M800 0V900M960 0V900M1120 0V900M1280 0V900M1440 0V900" stroke="#E7DDCF" stroke-width="1"/>
-  <rect x="120" y="92" width="1360" height="716" rx="34" fill="#FFFDF8" stroke="#1F2933" stroke-width="5"/>
-  <text x="800" y="177" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="68" font-weight="800" fill="#1F2933">Paper Skills</text>
-  <text x="800" y="226" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="30" fill="#58616C">Journal-ready AI skills for every research discipline</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Paper Skills — field-specific by design</title>
+  <desc id="desc">Disciplinary context shapes writing, citation, review, figures, and more</desc>
+  <defs>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#DDD6CB" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#17243A" flood-opacity=".10"/>
+    </filter>
+  </defs>
 
-  <rect x="640" y="304" width="320" height="164" rx="24" fill="#1F2933"/>
-  <text x="800" y="362" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="#FFFDF8">research paper</text>
-  <text x="800" y="407" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" fill="#D9E6F2">ideas -> manuscript -> figures -> review</text>
+  <rect width="1600" height="900" fill="#F4EFE7"/>
+  <rect width="1600" height="900" fill="url(#grid)" opacity=".46"/>
+  <rect x="44" y="40" width="1512" height="820" rx="40" fill="#FFFDF8" stroke="#17243A" stroke-width="3"/>
+
+  <image href="paper-skills-icon.png" x="64" y="48" width="106" height="106" preserveAspectRatio="xMidYMid meet"/>
+  <text x="166" y="127" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800" fill="#17243A">Paper Skills</text>
+  <rect x="1268" y="83" width="224" height="52" rx="26" fill="#F4EFE7" stroke="#17243A" stroke-width="2"/>
+  <text x="1380" y="117" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="1.5" fill="#17243A">OPEN SKILL LIBRARY</text>
+
+  <text x="800" y="236" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700" fill="#17243A">Field-specific by design.</text>
+  <text x="800" y="288" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="27" fill="#596273">Every discipline has its own paper language.</text>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#17243A">
+    <rect x="158" y="345" width="220" height="56" rx="28" fill="#E7F0F5" stroke="#7597AC" stroke-width="2"/>
+    <text x="268" y="380" text-anchor="middle">computer science</text>
+    <rect x="405" y="345" width="186" height="56" rx="28" fill="#F3E8DF" stroke="#C96C45" stroke-width="2"/>
+    <text x="498" y="380" text-anchor="middle">medicine</text>
+    <rect x="618" y="345" width="222" height="56" rx="28" fill="#E8F0E7" stroke="#6E8A70" stroke-width="2"/>
+    <text x="729" y="380" text-anchor="middle">materials</text>
+    <rect x="867" y="345" width="252" height="56" rx="28" fill="#F0EAF4" stroke="#88729B" stroke-width="2"/>
+    <text x="993" y="380" text-anchor="middle">integrated circuits</text>
+    <rect x="1146" y="345" width="190" height="56" rx="28" fill="#F4EDD8" stroke="#A98A46" stroke-width="2"/>
+    <text x="1241" y="380" text-anchor="middle">transportation</text>
+    <rect x="1363" y="345" width="78" height="56" rx="28" fill="#F4EFE7" stroke="#8D939C" stroke-width="2" stroke-dasharray="6 6"/>
+    <text x="1402" y="380" text-anchor="middle">+</text>
+  </g>
+
+  <g stroke="#C9BEB0" stroke-width="3" fill="none">
+    <path d="M268 401V438M498 401V438M729 401V438M993 401V438M1241 401V438M1402 401V438"/>
+    <path d="M268 438H1402"/>
+    <path d="M800 438V470"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="318" y="470" width="964" height="194" rx="34" fill="#F8E7DD" stroke="#C96C45" stroke-width="3"/>
+  </g>
+  <image href="paper-skills-icon.png" x="336" y="466" width="210" height="210" preserveAspectRatio="xMidYMid meet"/>
+  <text x="574" y="546" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4" fill="#A45F43">CORE PRINCIPLE</text>
+  <text x="574" y="601" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="850" letter-spacing="1" fill="#17243A">FIELD-SPECIFIC</text>
+  <text x="574" y="638" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-style="italic" fill="#9B614C">context shapes every skill</text>
+  <text x="913" y="638" font-family="Inter, Arial, sans-serif" font-size="17" fill="#596273">evidence · conventions · language · figures</text>
+
+  <g stroke="#C9BEB0" stroke-width="3" fill="none">
+    <path d="M800 664V704"/>
+    <path d="M208 704H1392"/>
+    <path d="M208 704V730M504 704V730M800 704V730M1096 704V730M1392 704V743"/>
+  </g>
 
   <g font-family="Inter, Arial, sans-serif">
-    <rect x="186" y="286" width="255" height="124" rx="20" fill="#EAF3F8" stroke="#2C5F7C" stroke-width="4"/>
-    <text x="314" y="342" text-anchor="middle" font-size="32" font-weight="800" fill="#1F2933">writing</text>
-    <text x="314" y="378" text-anchor="middle" font-size="20" fill="#52606D">polish · translate · argue</text>
-
-    <rect x="186" y="484" width="255" height="124" rx="20" fill="#EEF6EA" stroke="#5D7C4B" stroke-width="4"/>
-    <text x="314" y="540" text-anchor="middle" font-size="32" font-weight="800" fill="#1F2933">citation</text>
-    <text x="314" y="576" text-anchor="middle" font-size="20" fill="#52606D">search · verify · export</text>
-
-    <rect x="1159" y="286" width="255" height="124" rx="20" fill="#FFF0E3" stroke="#C8652D" stroke-width="4"/>
-    <text x="1287" y="342" text-anchor="middle" font-size="32" font-weight="800" fill="#1F2933">review</text>
-    <text x="1287" y="378" text-anchor="middle" font-size="20" fill="#52606D">QA · rebuttal · revision</text>
-
-    <rect x="1159" y="484" width="255" height="124" rx="20" fill="#F0ECFA" stroke="#6B5CA5" stroke-width="4"/>
-    <text x="1287" y="540" text-anchor="middle" font-size="32" font-weight="800" fill="#1F2933">venue packs</text>
-    <text x="1287" y="576" text-anchor="middle" font-size="20" fill="#52606D">Nature · IEEE · Cell · ACM</text>
-
-    <rect x="605" y="580" width="390" height="120" rx="24" fill="#FFE7D2" stroke="#D16C33" stroke-width="5"/>
-    <text x="800" y="634" text-anchor="middle" font-size="35" font-weight="900" fill="#1F2933">plot</text>
-    <text x="800" y="673" text-anchor="middle" font-size="22" fill="#52606D">field-specific scientific figures</text>
-  </g>
-
-  <g stroke="#1F2933" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M441 348H620"/>
-    <path d="M620 348L604 336M620 348L604 360"/>
-    <path d="M441 546H570C610 546 626 520 644 478"/>
-    <path d="M644 478L644 496M644 478L628 489"/>
-    <path d="M960 348H1159"/>
-    <path d="M1159 348L1143 336M1159 348L1143 360"/>
-    <path d="M960 478C982 520 1002 546 1052 546H1159"/>
-    <path d="M1159 546L1143 534M1159 546L1143 558"/>
-    <path d="M800 468V580"/>
-    <path d="M800 580L788 564M800 580L812 564"/>
-  </g>
-
-  <g transform="translate(555 735)" font-family="Inter, Arial, sans-serif">
-    <rect x="0" y="0" width="490" height="54" rx="27" fill="#FFFDF8" stroke="#1F2933" stroke-width="3"/>
-    <circle cx="42" cy="27" r="13" fill="#2C5F7C"/>
-    <text x="70" y="35" font-size="20" fill="#1F2933">domain packs</text>
-    <path d="M214 27H254" stroke="#1F2933" stroke-width="3" stroke-linecap="round"/>
-    <path d="M254 27L244 20M254 27L244 34" stroke="#1F2933" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="289" cy="27" r="13" fill="#D16C33"/>
-    <text x="317" y="35" font-size="20" fill="#1F2933">community skills</text>
-  </g>
-
-  <g stroke="#1F2933" stroke-width="3" fill="none" opacity="0.95">
-    <path d="M720 625H760L775 604H805L820 625H878"/>
-    <path d="M696 652H740M740 652V680M740 680H694M860 652H906M860 652V680M860 680H906"/>
-    <path d="M1249 518H1327M1249 548H1327M1249 578H1327M1265 518V578M1305 518V578"/>
-    <path d="M259 520L314 490L369 520L314 550L259 520Z"/>
-    <path d="M314 550V592M259 520V562L314 592L369 562V520"/>
+    <g transform="translate(98 730)">
+      <rect width="220" height="82" rx="20" fill="#E7F0F5" stroke="#7597AC" stroke-width="2"/>
+      <text x="110" y="39" text-anchor="middle" font-size="25" font-weight="800" fill="#17243A">writing</text>
+      <text x="110" y="64" text-anchor="middle" font-size="15" fill="#596273">argument · style</text>
+    </g>
+    <g transform="translate(394 730)">
+      <rect width="220" height="82" rx="20" fill="#E8F0E7" stroke="#6E8A70" stroke-width="2"/>
+      <text x="110" y="39" text-anchor="middle" font-size="25" font-weight="800" fill="#17243A">citation</text>
+      <text x="110" y="64" text-anchor="middle" font-size="15" fill="#596273">search · evidence</text>
+    </g>
+    <g transform="translate(690 730)">
+      <rect width="220" height="82" rx="20" fill="#F3E8DF" stroke="#C96C45" stroke-width="2"/>
+      <text x="110" y="39" text-anchor="middle" font-size="25" font-weight="800" fill="#17243A">review</text>
+      <text x="110" y="64" text-anchor="middle" font-size="15" fill="#596273">rubric · revision</text>
+    </g>
+    <g transform="translate(986 730)">
+      <rect width="220" height="82" rx="20" fill="#F0EAF4" stroke="#88729B" stroke-width="2"/>
+      <text x="110" y="39" text-anchor="middle" font-size="25" font-weight="800" fill="#17243A">figures</text>
+      <text x="110" y="64" text-anchor="middle" font-size="15" fill="#596273">visual grammar</text>
+    </g>
+    <g transform="translate(1353 743)">
+      <rect width="78" height="56" rx="28" fill="#F4EFE7" stroke="#8D939C" stroke-width="2" stroke-dasharray="6 6"/>
+      <text x="39" y="37" text-anchor="middle" font-size="28" font-weight="600" fill="#17243A">+</text>
+    </g>
   </g>
 </svg>
