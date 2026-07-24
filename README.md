@@ -92,6 +92,17 @@ Turn this technical report into a five-slide visual narrative.
 - Domain rubrics and held-out visual benchmarks
 - Generation → editing → export loop
 
+## Contributors
+
+ZeroPlot credits contributors by fields and work—not only commit count.
+
+| Contributor | Background | Fields | Contributions |
+| --- | --- | --- | --- |
+| [Bubu](https://github.com/MisterBrookT) | @KoinaAI · CS PhD @ ZJU | Computer science, scientific visualization, AI agents | Creator, product direction, initial visual domains |
+
+Contributing a domain pack, benchmark, visual rubric, workflow, or integration?
+Add your background, fields, and contribution in the same pull request.
+
 ## License
 
 MIT. Built by [Black Blue Labs](https://github.com/blackblue-labs).
