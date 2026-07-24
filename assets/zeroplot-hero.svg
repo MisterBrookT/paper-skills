@@ -1,297 +1,235 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="520" viewBox="0 0 1440 520" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="300" viewBox="0 0 1440 300" fill="none">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1440" y2="520">
+    <linearGradient id="bg" x1="0" y1="0" x2="1440" y2="300">
       <stop stop-color="#050505"/>
       <stop offset=".5" stop-color="#0A0A09"/>
       <stop offset="1" stop-color="#050505"/>
     </linearGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="0" y2="196">
-      <stop stop-color="#151511"/>
-      <stop offset="1" stop-color="#0E0E0C"/>
+    <linearGradient id="card" x1="0" y1="0" x2="112" y2="112">
+      <stop stop-color="#171712"/>
+      <stop offset="1" stop-color="#10100D"/>
     </linearGradient>
-    <filter id="shadow" x="-30%" y="-20%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000" flood-opacity=".55"/>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity=".55"/>
     </filter>
-    <g id="card-shell">
-      <rect width="100" height="196" rx="10" fill="url(#card)" stroke="#282820"/>
-      <rect x=".5" y=".5" width="99" height="195" rx="9.5" stroke="#FFF" stroke-opacity=".015"/>
+    <g id="tile">
+      <rect width="112" height="112" rx="12" fill="url(#card)" stroke="#2B2B22"/>
+      <rect x=".5" y=".5" width="111" height="111" rx="11.5" stroke="#FFF" stroke-opacity=".018"/>
     </g>
   </defs>
 
-  <rect width="1440" height="520" rx="22" fill="url(#bg)"/>
-  <path d="M24 260H1416" stroke="#FFF" stroke-opacity=".025"/>
+  <rect width="1440" height="300" rx="20" fill="url(#bg)"/>
 
   <!-- 01 Candlestick -->
-  <g transform="translate(58 50)" filter="url(#shadow)">
-    <use href="#card-shell"/>
+  <g transform="translate(79 29)" filter="url(#shadow)">
+    <use href="#tile"/>
     <g stroke-linecap="round">
-      <path d="M18 58V132" stroke="#E47773" stroke-width="2"/><rect x="13" y="75" width="10" height="35" rx="2" fill="#D96B68"/>
-      <path d="M36 40V112" stroke="#8DBD81" stroke-width="2"/><rect x="31" y="57" width="10" height="31" rx="2" fill="#78AA70"/>
-      <path d="M54 30V102" stroke="#8DBD81" stroke-width="2"/><rect x="49" y="44" width="10" height="34" rx="2" fill="#78AA70"/>
-      <path d="M72 48V138" stroke="#E47773" stroke-width="2"/><rect x="67" y="69" width="10" height="43" rx="2" fill="#D96B68"/>
-      <path d="M88 42V116" stroke="#8DBD81" stroke-width="2"/><rect x="83" y="58" width="10" height="32" rx="2" fill="#78AA70"/>
+      <path d="M22 31V84" stroke="#E47773" stroke-width="2"/><rect x="18" y="44" width="8" height="26" rx="2" fill="#D96B68"/>
+      <path d="M39 23V72" stroke="#8DBD81" stroke-width="2"/><rect x="35" y="34" width="8" height="24" rx="2" fill="#78AA70"/>
+      <path d="M56 18V67" stroke="#8DBD81" stroke-width="2"/><rect x="52" y="27" width="8" height="24" rx="2" fill="#78AA70"/>
+      <path d="M73 29V89" stroke="#E47773" stroke-width="2"/><rect x="69" y="42" width="8" height="31" rx="2" fill="#D96B68"/>
+      <path d="M90 25V76" stroke="#8DBD81" stroke-width="2"/><rect x="86" y="36" width="8" height="24" rx="2" fill="#78AA70"/>
     </g>
   </g>
 
   <!-- 02 Line -->
-  <g transform="translate(170 50)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <path d="M13 147H88M13 147V38" stroke="#4A4A42"/>
-    <path d="M14 135C27 129 30 108 42 101C53 95 57 115 67 92C76 72 81 50 88 39" stroke="#B07CC6" stroke-width="3" stroke-linecap="round"/>
-    <path d="M14 135C27 129 30 108 42 101C53 95 57 115 67 92C76 72 81 50 88 39V147H14Z" fill="#B07CC6" opacity=".09"/>
+  <g transform="translate(209 29)" filter="url(#shadow)">
+    <use href="#tile"/>
+    <path d="M17 89H94M17 89V21" stroke="#4B4B43"/>
+    <path d="M18 82C30 78 34 63 44 60C55 57 58 72 68 58C78 44 84 26 94 18" stroke="#B07CC6" stroke-width="3" stroke-linecap="round"/>
+    <path d="M18 82C30 78 34 63 44 60C55 57 58 72 68 58C78 44 84 26 94 18V89H18Z" fill="#B07CC6" opacity=".1"/>
   </g>
 
   <!-- 03 Bars -->
-  <g transform="translate(282 50)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <path d="M13 151H88" stroke="#4A4A42"/>
-    <rect x="17" y="101" width="11" height="50" rx="2" fill="#D7B766"/>
-    <rect x="33" y="69" width="11" height="82" rx="2" fill="#E7E2D3"/>
-    <rect x="49" y="84" width="11" height="67" rx="2" fill="#C9C4B6"/>
-    <rect x="65" y="54" width="11" height="97" rx="2" fill="#E7E2D3"/>
-    <rect x="81" y="111" width="7" height="40" rx="2" fill="#D7B766"/>
+  <g transform="translate(339 29)" filter="url(#shadow)">
+    <use href="#tile"/>
+    <path d="M16 91H96" stroke="#4B4B43"/>
+    <rect x="21" y="61" width="11" height="30" rx="2" fill="#D7B766"/>
+    <rect x="38" y="36" width="11" height="55" rx="2" fill="#E7E2D3"/>
+    <rect x="55" y="48" width="11" height="43" rx="2" fill="#C9C4B6"/>
+    <rect x="72" y="25" width="11" height="66" rx="2" fill="#E7E2D3"/>
+    <rect x="89" y="68" width="7" height="23" rx="2" fill="#D7B766"/>
   </g>
 
   <!-- 04 Heatmap -->
-  <g transform="translate(394 50)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <g transform="translate(16 45)">
-      <rect width="15" height="15" fill="#40352A"/><rect x="17" width="15" height="15" fill="#865638"/><rect x="34" width="15" height="15" fill="#D4863D"/><rect x="51" width="15" height="15" fill="#5C4634"/>
-      <rect y="17" width="15" height="15" fill="#C97937"/><rect x="17" y="17" width="15" height="15" fill="#514945"/><rect x="34" y="17" width="15" height="15" fill="#726150"/><rect x="51" y="17" width="15" height="15" fill="#E0A349"/>
-      <rect y="34" width="15" height="15" fill="#59442F"/><rect x="17" y="34" width="15" height="15" fill="#D99A43"/><rect x="34" y="34" width="15" height="15" fill="#A56638"/><rect x="51" y="34" width="15" height="15" fill="#464038"/>
-      <rect y="51" width="15" height="15" fill="#D98B3D"/><rect x="17" y="51" width="15" height="15" fill="#7B5940"/><rect x="34" y="51" width="15" height="15" fill="#E7B14F"/><rect x="51" y="51" width="15" height="15" fill="#8B5836"/>
-      <rect y="68" width="15" height="15" fill="#4B4037"/><rect x="17" y="68" width="15" height="15" fill="#C47639"/><rect x="34" y="68" width="15" height="15" fill="#64554B"/><rect x="51" y="68" width="15" height="15" fill="#DA923E"/>
+  <g transform="translate(469 29)" filter="url(#shadow)">
+    <use href="#tile"/>
+    <g transform="translate(24 24)">
+      <rect width="14" height="14" fill="#57402E"/><rect x="16" width="14" height="14" fill="#D4863D"/><rect x="32" width="14" height="14" fill="#71513A"/><rect x="48" width="14" height="14" fill="#E0A349"/>
+      <rect y="16" width="14" height="14" fill="#C97937"/><rect x="16" y="16" width="14" height="14" fill="#50453D"/><rect x="32" y="16" width="14" height="14" fill="#D99A43"/><rect x="48" y="16" width="14" height="14" fill="#6A503A"/>
+      <rect y="32" width="14" height="14" fill="#68513B"/><rect x="16" y="32" width="14" height="14" fill="#E7B14F"/><rect x="32" y="32" width="14" height="14" fill="#A56638"/><rect x="48" y="32" width="14" height="14" fill="#4B443B"/>
+      <rect y="48" width="14" height="14" fill="#D98B3D"/><rect x="16" y="48" width="14" height="14" fill="#7B5940"/><rect x="32" y="48" width="14" height="14" fill="#C47639"/><rect x="48" y="48" width="14" height="14" fill="#E0A349"/>
     </g>
   </g>
 
   <!-- 05 Scatter -->
-  <g transform="translate(506 50)" filter="url(#shadow)">
-    <use href="#card-shell"/>
+  <g transform="translate(599 29)" filter="url(#shadow)">
+    <use href="#tile"/>
     <g>
-      <circle cx="22" cy="111" r="4" fill="#8DBD81"/><circle cx="31" cy="77" r="3" fill="#D7B766"/>
-      <circle cx="40" cy="121" r="3" fill="#D98B52"/><circle cx="47" cy="91" r="5" fill="#B07CC6"/>
-      <circle cx="55" cy="64" r="3" fill="#8DBD81"/><circle cx="63" cy="105" r="4" fill="#E7E2D3"/>
-      <circle cx="72" cy="50" r="3" fill="#D7B766"/><circle cx="78" cy="84" r="3" fill="#D96B68"/>
-      <circle cx="84" cy="67" r="4" fill="#8DBD81"/><circle cx="29" cy="137" r="2.5" fill="#E7E2D3"/>
-      <circle cx="57" cy="132" r="3" fill="#D98B52"/><circle cx="69" cy="119" r="2.5" fill="#B07CC6"/>
+      <circle cx="24" cy="72" r="4" fill="#8DBD81"/><circle cx="32" cy="42" r="3" fill="#D7B766"/>
+      <circle cx="43" cy="82" r="3" fill="#D98B52"/><circle cx="49" cy="58" r="5" fill="#B07CC6"/>
+      <circle cx="58" cy="31" r="3" fill="#8DBD81"/><circle cx="66" cy="68" r="4" fill="#E7E2D3"/>
+      <circle cx="77" cy="25" r="3" fill="#D7B766"/><circle cx="84" cy="52" r="3" fill="#D96B68"/>
+      <circle cx="91" cy="37" r="4" fill="#8DBD81"/><circle cx="63" cy="88" r="3" fill="#D98B52"/>
     </g>
   </g>
 
   <!-- 06 Network -->
-  <g transform="translate(618 50)" filter="url(#shadow)">
-    <use href="#card-shell"/>
+  <g transform="translate(729 29)" filter="url(#shadow)">
+    <use href="#tile"/>
     <g stroke="#8C7750" stroke-width="1.5">
-      <path d="M18 123L35 71L56 106L73 46L88 96L61 137L18 123Z"/>
-      <path d="M35 71L88 96M56 106L73 46M56 106L61 137"/>
+      <path d="M20 79L38 35L58 68L77 24L93 62L68 91L20 79Z"/>
+      <path d="M38 35L93 62M58 68L77 24M58 68L68 91"/>
     </g>
     <g fill="#D7B766">
-      <circle cx="18" cy="123" r="4"/><circle cx="35" cy="71" r="4"/><circle cx="56" cy="106" r="5"/>
-      <circle cx="73" cy="46" r="4"/><circle cx="88" cy="96" r="4"/><circle cx="61" cy="137" r="4"/>
+      <circle cx="20" cy="79" r="4"/><circle cx="38" cy="35" r="4"/><circle cx="58" cy="68" r="5"/>
+      <circle cx="77" cy="24" r="4"/><circle cx="93" cy="62" r="4"/><circle cx="68" cy="91" r="4"/>
     </g>
   </g>
 
   <!-- 07 Waterfall -->
-  <g transform="translate(730 50)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <path d="M12 43H26V58H39V77H52V94H65V119H78V143H90" stroke="#8DBD81" stroke-width="3" stroke-linejoin="round"/>
-    <path d="M26 58V151M39 77V151M52 94V151M65 119V151M78 143V151" stroke="#8DBD81" stroke-opacity=".15"/>
-    <path d="M12 151H90" stroke="#4A4A42"/>
+  <g transform="translate(859 29)" filter="url(#shadow)">
+    <use href="#tile"/>
+    <path d="M17 23H30V36H43V49H56V62H69V76H82V90H96" stroke="#8DBD81" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M17 91H96" stroke="#4B4B43"/>
   </g>
 
   <!-- 08 Radar -->
-  <g transform="translate(842 50)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <g transform="translate(50 96)">
-      <path d="M0-48L45-15L28 39L-28 39L-45-15Z" stroke="#4C493E"/>
-      <path d="M0-31L28-9L17 24L-17 24L-28-9Z" stroke="#4C493E"/>
-      <path d="M0 0V-48M0 0L45-15M0 0L28 39M0 0L-28 39M0 0L-45-15" stroke="#4C493E"/>
-      <path d="M0-39L35-11L15 21L-21 30L-31-10Z" fill="#B07CC6" fill-opacity=".18" stroke="#B07CC6" stroke-width="2"/>
+  <g transform="translate(989 29)" filter="url(#shadow)">
+    <use href="#tile"/>
+    <g transform="translate(56 56)">
+      <path d="M0-39L37-12L23 32L-23 32L-37-12Z" stroke="#4C493E"/>
+      <path d="M0-24L23-8L14 19L-14 19L-23-8Z" stroke="#4C493E"/>
+      <path d="M0 0V-39M0 0L37-12M0 0L23 32M0 0L-23 32M0 0L-37-12" stroke="#4C493E"/>
+      <path d="M0-31L29-9L13 17L-18 25L-26-8Z" fill="#B07CC6" fill-opacity=".2" stroke="#B07CC6" stroke-width="2"/>
     </g>
   </g>
 
   <!-- 09 Donut -->
-  <g transform="translate(954 50)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <circle cx="50" cy="96" r="42" stroke="#292922" stroke-width="16"/>
-    <circle cx="50" cy="96" r="42" stroke="#D7B766" stroke-width="16" stroke-dasharray="82 182" transform="rotate(-90 50 96)"/>
-    <circle cx="50" cy="96" r="42" stroke="#8DBD81" stroke-width="16" stroke-dasharray="54 210" stroke-dashoffset="-82" transform="rotate(-90 50 96)"/>
-    <circle cx="50" cy="96" r="42" stroke="#D96B68" stroke-width="16" stroke-dasharray="38 226" stroke-dashoffset="-136" transform="rotate(-90 50 96)"/>
-    <circle cx="50" cy="96" r="42" stroke="#B07CC6" stroke-width="16" stroke-dasharray="90 174" stroke-dashoffset="-174" transform="rotate(-90 50 96)"/>
+  <g transform="translate(1119 29)" filter="url(#shadow)">
+    <use href="#tile"/>
+    <circle cx="56" cy="56" r="34" stroke="#292922" stroke-width="14"/>
+    <circle cx="56" cy="56" r="34" stroke="#D7B766" stroke-width="14" stroke-dasharray="67 147" transform="rotate(-90 56 56)"/>
+    <circle cx="56" cy="56" r="34" stroke="#8DBD81" stroke-width="14" stroke-dasharray="46 168" stroke-dashoffset="-67" transform="rotate(-90 56 56)"/>
+    <circle cx="56" cy="56" r="34" stroke="#D96B68" stroke-width="14" stroke-dasharray="31 183" stroke-dashoffset="-113" transform="rotate(-90 56 56)"/>
+    <circle cx="56" cy="56" r="34" stroke="#B07CC6" stroke-width="14" stroke-dasharray="70 144" stroke-dashoffset="-144" transform="rotate(-90 56 56)"/>
   </g>
 
   <!-- 10 Area -->
-  <g transform="translate(1066 50)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <path d="M12 146C25 130 33 135 44 105C55 76 65 88 75 58C81 42 85 46 90 35V151H12Z" fill="#8DBD81" opacity=".2"/>
-    <path d="M12 146C25 130 33 135 44 105C55 76 65 88 75 58C81 42 85 46 90 35" stroke="#8DBD81" stroke-width="3" stroke-linecap="round"/>
-    <path d="M12 151H90" stroke="#4A4A42"/>
+  <g transform="translate(1249 29)" filter="url(#shadow)">
+    <use href="#tile"/>
+    <path d="M16 91C29 79 37 83 48 61C59 40 68 49 79 28C86 17 91 20 96 14V93H16Z" fill="#8DBD81" opacity=".22"/>
+    <path d="M16 91C29 79 37 83 48 61C59 40 68 49 79 28C86 17 91 20 96 14" stroke="#8DBD81" stroke-width="3" stroke-linecap="round"/>
+    <path d="M16 93H96" stroke="#4B4B43"/>
   </g>
 
-  <!-- 11 Box plot -->
-  <g transform="translate(1178 50)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <g stroke-width="2">
-      <path d="M22 46V143M14 46H30M14 143H30" stroke="#D7B766"/>
-      <rect x="14" y="74" width="16" height="43" fill="#D7B766" fill-opacity=".18" stroke="#D7B766"/>
-      <path d="M14 94H30" stroke="#E7E2D3"/>
-      <path d="M50 65V151M42 65H58M42 151H58" stroke="#D96B68"/>
-      <rect x="42" y="90" width="16" height="38" fill="#D96B68" fill-opacity=".18" stroke="#D96B68"/>
-      <path d="M42 109H58" stroke="#E7E2D3"/>
-      <path d="M78 36V130M70 36H86M70 130H86" stroke="#8DBD81"/>
-      <rect x="70" y="57" width="16" height="46" fill="#8DBD81" fill-opacity=".18" stroke="#8DBD81"/>
-      <path d="M70 78H86" stroke="#E7E2D3"/>
-    </g>
-  </g>
-
-  <!-- 12 Histogram -->
-  <g transform="translate(1290 50)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <path d="M10 151H90" stroke="#4A4A42"/>
-    <g fill="#D98B52">
-      <rect x="14" y="132" width="9" height="19"/><rect x="24" y="111" width="9" height="40"/>
-      <rect x="34" y="77" width="9" height="74"/><rect x="44" y="48" width="9" height="103"/>
-      <rect x="54" y="62" width="9" height="89"/><rect x="64" y="93" width="9" height="58"/>
-      <rect x="74" y="123" width="9" height="28"/>
-    </g>
-  </g>
-
-  <!-- 13 Circuit -->
-  <g transform="translate(58 274)" filter="url(#shadow)">
-    <use href="#card-shell"/>
+  <!-- 11 Circuit -->
+  <g transform="translate(79 159)" filter="url(#shadow)">
+    <use href="#tile"/>
     <g stroke="#D7B766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M9 96H25M36 96H50M50 96V50H75M50 96V142H75M75 50V142M75 72H91M75 120H91"/>
-      <path d="M25 79V113M36 79V113"/>
-      <path d="M60 50L65 43L70 57L75 43L80 57L85 50"/>
-      <path d="M60 142L65 135L70 149L75 135L80 149L85 142"/>
+      <path d="M10 56H28M39 56H55M55 56V27H82M55 56V85H82M82 27V85M82 42H100M82 70H100"/>
+      <path d="M28 43V69M39 43V69"/>
+      <path d="M67 27L71 22L75 32L79 22L83 32L87 27"/>
+      <path d="M67 85L71 80L75 90L79 80L83 90L87 85"/>
     </g>
-    <g fill="#E7E2D3"><circle cx="9" cy="96" r="3"/><circle cx="50" cy="96" r="3"/><circle cx="75" cy="50" r="3"/><circle cx="75" cy="142" r="3"/></g>
+    <g fill="#E7E2D3"><circle cx="10" cy="56" r="3"/><circle cx="55" cy="56" r="3"/><circle cx="82" cy="27" r="3"/><circle cx="82" cy="85" r="3"/></g>
   </g>
 
-  <!-- 14 Flowchart -->
-  <g transform="translate(170 274)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <g stroke="#8DBD81" stroke-width="1.6">
-      <path d="M50 37V59M50 91V111M50 143V161"/>
-      <path d="M50 111H81V128"/>
+  <!-- 12 Flowchart -->
+  <g transform="translate(209 159)" filter="url(#shadow)">
+    <use href="#tile"/>
+    <g stroke="#8DBD81" stroke-width="1.5">
+      <path d="M56 19V33M56 59V72M56 89V98M56 72H88V84"/>
     </g>
-    <rect x="35" y="21" width="30" height="16" rx="8" fill="#8DBD81"/>
-    <rect x="25" y="59" width="50" height="32" rx="5" fill="#182017" stroke="#8DBD81"/>
-    <path d="M50 107L69 127L50 147L31 127Z" fill="#182017" stroke="#8DBD81"/>
-    <rect x="70" y="128" width="22" height="22" rx="4" fill="#8DBD81" fill-opacity=".25" stroke="#8DBD81"/>
-    <rect x="33" y="161" width="34" height="16" rx="8" fill="#8DBD81" fill-opacity=".35" stroke="#8DBD81"/>
+    <rect x="43" y="9" width="26" height="10" rx="5" fill="#8DBD81"/>
+    <rect x="34" y="33" width="44" height="26" rx="5" fill="#182017" stroke="#8DBD81"/>
+    <path d="M56 66L73 81L56 96L39 81Z" fill="#182017" stroke="#8DBD81"/>
+    <rect x="79" y="84" width="18" height="18" rx="4" fill="#8DBD81" fill-opacity=".25" stroke="#8DBD81"/>
+    <rect x="43" y="98" width="26" height="9" rx="4.5" fill="#8DBD81" fill-opacity=".35" stroke="#8DBD81"/>
   </g>
 
-  <!-- 15 Sankey -->
-  <g transform="translate(282 274)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <path d="M16 45C42 45 39 72 66 72H86" stroke="#D7B766" stroke-width="10" stroke-opacity=".8"/>
-    <path d="M16 96C45 96 43 79 66 79H86" stroke="#D96B68" stroke-width="14" stroke-opacity=".72"/>
-    <path d="M16 143C45 143 42 91 66 91H86" stroke="#8DBD81" stroke-width="8" stroke-opacity=".75"/>
-    <rect x="10" y="35" width="6" height="20" rx="2" fill="#D7B766"/><rect x="10" y="82" width="6" height="28" rx="2" fill="#D96B68"/><rect x="10" y="135" width="6" height="16" rx="2" fill="#8DBD81"/>
-    <rect x="86" y="61" width="6" height="40" rx="2" fill="#E7E2D3"/>
+  <!-- 13 Sankey -->
+  <g transform="translate(339 159)" filter="url(#shadow)">
+    <use href="#tile"/>
+    <path d="M16 29C43 29 42 46 72 46H96" stroke="#D7B766" stroke-width="8" stroke-opacity=".8"/>
+    <path d="M16 56C46 56 44 51 72 51H96" stroke="#D96B68" stroke-width="11" stroke-opacity=".72"/>
+    <path d="M16 84C46 84 44 59 72 59H96" stroke="#8DBD81" stroke-width="7" stroke-opacity=".75"/>
+    <rect x="11" y="21" width="5" height="16" rx="2" fill="#D7B766"/><rect x="11" y="45" width="5" height="22" rx="2" fill="#D96B68"/><rect x="11" y="77" width="5" height="14" rx="2" fill="#8DBD81"/>
+    <rect x="96" y="38" width="5" height="29" rx="2" fill="#E7E2D3"/>
   </g>
 
-  <!-- 16 Timeline -->
-  <g transform="translate(394 274)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <path d="M18 98H86" stroke="#5A5549" stroke-width="2"/>
+  <!-- 14 Timeline -->
+  <g transform="translate(469 159)" filter="url(#shadow)">
+    <use href="#tile"/>
+    <path d="M16 57H96" stroke="#5A5549" stroke-width="2"/>
     <g>
-      <circle cx="23" cy="98" r="6" fill="#D96B68"/><circle cx="44" cy="98" r="6" fill="#D7B766"/><circle cx="65" cy="98" r="6" fill="#8DBD81"/><circle cx="84" cy="98" r="6" fill="#B07CC6"/>
-      <path d="M23 91V55M44 105V141M65 91V46M84 105V132" stroke="#5A5549"/>
-      <rect x="13" y="43" width="20" height="12" rx="3" fill="#D96B68" fill-opacity=".25"/>
-      <rect x="34" y="141" width="20" height="12" rx="3" fill="#D7B766" fill-opacity=".25"/>
-      <rect x="55" y="34" width="20" height="12" rx="3" fill="#8DBD81" fill-opacity=".25"/>
-      <rect x="74" y="132" width="20" height="12" rx="3" fill="#B07CC6" fill-opacity=".25"/>
+      <circle cx="22" cy="57" r="5" fill="#D96B68"/><circle cx="45" cy="57" r="5" fill="#D7B766"/><circle cx="68" cy="57" r="5" fill="#8DBD81"/><circle cx="91" cy="57" r="5" fill="#B07CC6"/>
+      <path d="M22 51V26M45 63V87M68 51V21M91 63V82" stroke="#5A5549"/>
+      <rect x="13" y="18" width="18" height="8" rx="2" fill="#D96B68" fill-opacity=".28"/>
+      <rect x="36" y="87" width="18" height="8" rx="2" fill="#D7B766" fill-opacity=".28"/>
+      <rect x="59" y="13" width="18" height="8" rx="2" fill="#8DBD81" fill-opacity=".28"/>
+      <rect x="82" y="82" width="18" height="8" rx="2" fill="#B07CC6" fill-opacity=".28"/>
     </g>
   </g>
 
-  <!-- 17 Tree -->
-  <g transform="translate(506 274)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <g stroke="#B07CC6" stroke-width="1.6">
-      <path d="M50 37V58M50 58H24V84M50 58H76V84M24 102V120M76 102V120M24 120H13V145M24 120H35V145M76 120H65V145M76 120H87V145"/>
+  <!-- 15 Tree -->
+  <g transform="translate(599 159)" filter="url(#shadow)">
+    <use href="#tile"/>
+    <g stroke="#B07CC6" stroke-width="1.5">
+      <path d="M56 22V36M56 36H31V53M56 36H81V53M31 68V79M81 68V79M31 79H20V94M31 79H42V94M81 79H70V94M81 79H92V94"/>
     </g>
     <g fill="#261B2A" stroke="#B07CC6">
-      <rect x="38" y="21" width="24" height="16" rx="4"/><rect x="12" y="84" width="24" height="18" rx="4"/><rect x="64" y="84" width="24" height="18" rx="4"/>
-      <rect x="4" y="145" width="18" height="14" rx="4"/><rect x="26" y="145" width="18" height="14" rx="4"/><rect x="56" y="145" width="18" height="14" rx="4"/><rect x="78" y="145" width="18" height="14" rx="4"/>
+      <rect x="44" y="12" width="24" height="10" rx="3"/><rect x="20" y="53" width="22" height="15" rx="3"/><rect x="70" y="53" width="22" height="15" rx="3"/>
+      <rect x="12" y="94" width="16" height="10" rx="3"/><rect x="34" y="94" width="16" height="10" rx="3"/><rect x="62" y="94" width="16" height="10" rx="3"/><rect x="84" y="94" width="16" height="10" rx="3"/>
     </g>
   </g>
 
-  <!-- 18 Venn -->
-  <g transform="translate(618 274)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <circle cx="40" cy="82" r="35" fill="#D96B68" fill-opacity=".28" stroke="#D96B68"/>
-    <circle cx="63" cy="82" r="35" fill="#D7B766" fill-opacity=".24" stroke="#D7B766"/>
-    <circle cx="51" cy="112" r="35" fill="#8DBD81" fill-opacity=".23" stroke="#8DBD81"/>
+  <!-- 16 Venn -->
+  <g transform="translate(729 159)" filter="url(#shadow)">
+    <use href="#tile"/>
+    <circle cx="45" cy="47" r="29" fill="#D96B68" fill-opacity=".27" stroke="#D96B68"/>
+    <circle cx="68" cy="47" r="29" fill="#D7B766" fill-opacity=".23" stroke="#D7B766"/>
+    <circle cx="56" cy="72" r="29" fill="#8DBD81" fill-opacity=".22" stroke="#8DBD81"/>
   </g>
 
-  <!-- 19 Matrix -->
-  <g transform="translate(730 274)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <g transform="translate(14 55)">
-      <rect width="16" height="16" rx="2" fill="#D96B68"/><rect x="18" width="16" height="16" rx="2" fill="#3E332B"/><rect x="36" width="16" height="16" rx="2" fill="#8DBD81"/><rect x="54" width="16" height="16" rx="2" fill="#D7B766"/>
-      <rect y="18" width="16" height="16" rx="2" fill="#5C4832"/><rect x="18" y="18" width="16" height="16" rx="2" fill="#B07CC6"/><rect x="36" y="18" width="16" height="16" rx="2" fill="#D98B52"/><rect x="54" y="18" width="16" height="16" rx="2" fill="#413C32"/>
-      <rect y="36" width="16" height="16" rx="2" fill="#8DBD81"/><rect x="18" y="36" width="16" height="16" rx="2" fill="#665238"/><rect x="36" y="36" width="16" height="16" rx="2" fill="#D96B68"/><rect x="54" y="36" width="16" height="16" rx="2" fill="#B07CC6"/>
-      <rect y="54" width="16" height="16" rx="2" fill="#D7B766"/><rect x="18" y="54" width="16" height="16" rx="2" fill="#D98B52"/><rect x="36" y="54" width="16" height="16" rx="2" fill="#4B4238"/><rect x="54" y="54" width="16" height="16" rx="2" fill="#8DBD81"/>
+  <!-- 17 Matrix -->
+  <g transform="translate(859 159)" filter="url(#shadow)">
+    <use href="#tile"/>
+    <g transform="translate(22 22)">
+      <rect width="15" height="15" rx="2" fill="#D96B68"/><rect x="17" width="15" height="15" rx="2" fill="#504338"/><rect x="34" width="15" height="15" rx="2" fill="#8DBD81"/><rect x="51" width="15" height="15" rx="2" fill="#D7B766"/>
+      <rect y="17" width="15" height="15" rx="2" fill="#6C5035"/><rect x="17" y="17" width="15" height="15" rx="2" fill="#B07CC6"/><rect x="34" y="17" width="15" height="15" rx="2" fill="#D98B52"/><rect x="51" y="17" width="15" height="15" rx="2" fill="#474139"/>
+      <rect y="34" width="15" height="15" rx="2" fill="#8DBD81"/><rect x="17" y="34" width="15" height="15" rx="2" fill="#665238"/><rect x="34" y="34" width="15" height="15" rx="2" fill="#D96B68"/><rect x="51" y="34" width="15" height="15" rx="2" fill="#B07CC6"/>
+      <rect y="51" width="15" height="15" rx="2" fill="#D7B766"/><rect x="17" y="51" width="15" height="15" rx="2" fill="#D98B52"/><rect x="34" y="51" width="15" height="15" rx="2" fill="#51473C"/><rect x="51" y="51" width="15" height="15" rx="2" fill="#8DBD81"/>
     </g>
   </g>
 
-  <!-- 20 Waveform -->
-  <g transform="translate(842 274)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <path d="M10 98H90" stroke="#4A4A42"/>
-    <path d="M10 98C18 98 18 49 26 49C34 49 34 147 42 147C50 147 50 68 58 68C66 68 66 125 74 125C82 125 82 86 90 86" stroke="#D96B68" stroke-width="2.5"/>
-    <path d="M10 118C24 113 29 107 41 103C54 99 68 98 90 97" stroke="#D7B766" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <!-- 18 Waveform -->
+  <g transform="translate(989 159)" filter="url(#shadow)">
+    <use href="#tile"/>
+    <path d="M13 57H99" stroke="#4B4B43"/>
+    <path d="M13 57C21 57 21 23 29 23C37 23 37 91 45 91C53 91 53 36 61 36C69 36 69 77 77 77C85 77 85 48 99 48" stroke="#D96B68" stroke-width="2.5"/>
+    <path d="M13 72C29 67 40 62 55 59C72 56 84 56 99 55" stroke="#D7B766" stroke-width="1.5" stroke-dasharray="3 4"/>
   </g>
 
-  <!-- 21 Contour -->
-  <g transform="translate(954 274)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <g transform="translate(50 98)" fill="none">
-      <path d="M-39 12C-50-13-29-43 1-45C33-47 47-22 40 9C33 39 7 48-19 36C-31 30-35 22-39 12Z" stroke="#8DBD81"/>
-      <path d="M-28 8C-34-10-20-31 1-33C24-35 34-17 29 6C24 27 7 35-12 27C-21 23-25 17-28 8Z" stroke="#D7B766"/>
-      <path d="M-17 4C-20-6-12-19 1-20C15-21 21-11 18 3C15 16 5 21-7 16C-12 14-15 9-17 4Z" stroke="#D98B52"/>
-      <circle cx="1" cy="1" r="5" fill="#D96B68" stroke="none"/>
+  <!-- 19 Contour -->
+  <g transform="translate(1119 159)" filter="url(#shadow)">
+    <use href="#tile"/>
+    <g transform="translate(56 56)" fill="none">
+      <path d="M-38 9C-46-14-27-39 0-41C29-43 42-20 36 8C30 34 6 42-18 32C-29 27-34 18-38 9Z" stroke="#8DBD81"/>
+      <path d="M-27 6C-32-9-18-28 0-29C20-31 30-15 26 5C22 24 6 31-11 24C-20 20-24 14-27 6Z" stroke="#D7B766"/>
+      <path d="M-16 3C-19-6-11-17 0-18C12-19 18-10 16 2C13 14 4 18-6 14C-11 12-14 8-16 3Z" stroke="#D98B52"/>
+      <circle r="4" fill="#D96B68" stroke="none"/>
     </g>
   </g>
 
-  <!-- 22 Architecture -->
-  <g transform="translate(1066 274)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <g stroke="#D7B766" stroke-width="1.5">
-      <path d="M24 51H76M50 69V88M24 106H76M24 124V146M50 124V146M76 124V146"/>
-    </g>
-    <g fill="#201C13" stroke="#D7B766">
-      <rect x="22" y="35" width="56" height="34" rx="5"/>
-      <rect x="14" y="88" width="72" height="36" rx="5"/>
-      <rect x="12" y="146" width="24" height="18" rx="4"/><rect x="38" y="146" width="24" height="18" rx="4"/><rect x="64" y="146" width="24" height="18" rx="4"/>
-    </g>
-  </g>
-
-  <!-- 23 Slides -->
-  <g transform="translate(1178 274)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <rect x="12" y="24" width="76" height="58" rx="5" fill="#151510" stroke="#8DBD81"/>
-    <path d="M22 66L36 49L48 59L64 40L78 66" stroke="#8DBD81" stroke-width="2.5"/>
-    <rect x="12" y="93" width="76" height="40" rx="5" fill="#151510" stroke="#D7B766"/>
-    <rect x="22" y="103" width="30" height="4" rx="2" fill="#D7B766"/><rect x="22" y="113" width="56" height="3" rx="1.5" fill="#777061"/>
-    <rect x="12" y="144" width="76" height="28" rx="5" fill="#151510" stroke="#B07CC6"/>
-    <rect x="22" y="153" width="17" height="10" rx="2" fill="#B07CC6"/><rect x="46" y="153" width="32" height="3" rx="1.5" fill="#8B7E8F"/>
-  </g>
-
-  <!-- 24 Paper figure -->
-  <g transform="translate(1290 274)" filter="url(#shadow)">
-    <use href="#card-shell"/>
-    <rect x="12" y="23" width="76" height="150" rx="5" fill="#E7E2D3"/>
-    <rect x="21" y="34" width="46" height="4" rx="2" fill="#777269"/>
-    <rect x="21" y="44" width="58" height="2" rx="1" fill="#AAA59A"/>
-    <rect x="21" y="51" width="54" height="2" rx="1" fill="#AAA59A"/>
-    <rect x="21" y="64" width="58" height="52" rx="2" fill="#24231F"/>
-    <path d="M27 105L38 91L48 98L61 78L74 101" stroke="#D7B766" stroke-width="2"/>
-    <circle cx="61" cy="78" r="3" fill="#D96B68"/>
-    <rect x="21" y="126" width="58" height="2" rx="1" fill="#AAA59A"/>
-    <rect x="21" y="133" width="51" height="2" rx="1" fill="#AAA59A"/>
-    <rect x="21" y="140" width="56" height="2" rx="1" fill="#AAA59A"/>
-    <rect x="21" y="153" width="28" height="3" rx="1.5" fill="#777269"/>
+  <!-- 20 Slides -->
+  <g transform="translate(1249 159)" filter="url(#shadow)">
+    <use href="#tile"/>
+    <rect x="14" y="13" width="84" height="40" rx="5" fill="#151510" stroke="#8DBD81"/>
+    <path d="M24 43L38 27L50 36L66 20L87 43" stroke="#8DBD81" stroke-width="2"/>
+    <rect x="14" y="61" width="84" height="24" rx="5" fill="#151510" stroke="#D7B766"/>
+    <rect x="23" y="68" width="30" height="3" rx="1.5" fill="#D7B766"/><rect x="23" y="76" width="63" height="2" rx="1" fill="#777061"/>
+    <rect x="14" y="93" width="84" height="12" rx="4" fill="#151510" stroke="#B07CC6"/>
+    <rect x="22" y="97" width="13" height="4" rx="1.5" fill="#B07CC6"/><rect x="41" y="98" width="45" height="2" rx="1" fill="#8B7E8F"/>
   </g>
 </svg>
