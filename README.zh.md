@@ -86,6 +86,17 @@ npx skills add blackblue-labs/zeroplot -g -a codex -y
 - 领域 rubric 与独立视觉 benchmark
 - 生成 → 编辑 → 导出闭环
 
+## 贡献者
+
+ZeroPlot 按领域与实际贡献署名，不只看 commit 数。
+
+| 贡献者 | 背景 | 领域 | 贡献 |
+| --- | --- | --- | --- |
+| [Bubu](https://github.com/MisterBrookT) | @KoinaAI · 浙江大学计算机博士 | 计算机科学、科学可视化、AI Agent | 创建者、产品方向、初始视觉领域 |
+
+贡献 domain pack、benchmark、视觉 rubric、工作流或集成时，请在同一 PR
+补充背景、领域与具体贡献。
+
 ## License
 
 MIT。由 [Black Blue Labs](https://github.com/blackblue-labs) 构建。
