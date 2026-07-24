@@ -15,7 +15,7 @@ Turn intent, data, or references into editable visual artifacts.
 
 </div>
 
-![ZeroPlot — one origin, many editable visual artifacts](assets/zeroplot-hero.webp)
+![ZeroPlot visual capability samples](assets/zeroplot-hero.svg)
 
 ## One visual system. Every format.
 
