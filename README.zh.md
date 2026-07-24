@@ -15,7 +15,7 @@
 
 </div>
 
-![ZeroPlot：一个起点，多种可编辑视觉产物](assets/zeroplot-hero.webp)
+![ZeroPlot 视觉能力样本](assets/zeroplot-hero.svg)
 
 ## 一个视觉系统，覆盖所有格式
 
