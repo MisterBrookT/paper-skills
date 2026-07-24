@@ -78,6 +78,28 @@ npx skills add blackblue-labs/zeroplot -g -a codex -y
 | [集成电路](skills/zeroplot/domains/integrated-circuits) | 原理图、开关电容图、架构块图 | seed |
 | [计算机科学](skills/zeroplot/domains/computer-science) | 系统、模型、pipeline、评测结构 | seed |
 
+## 研究成果
+
+ZeroPlot 背后的研究成果之一：
+
+**[Demonstrating chart-plot: Closing the Last Mile of Academic Chart Generation](https://arxiv.org/abs/2606.09174)**
+
+已被 **ADS 2026: The Joint Workshop on Agentic Data Systems and
+Data-Centric AI（The 1st ADS & 3rd DATAI，VLDB 2026 联合 Workshop）**接收。
+
+如果 ZeroPlot 帮助了你的工作，请引用：
+
+```bibtex
+@misc{tang2026chartplot,
+  title         = {Demonstrating chart-plot: Closing the Last Mile of Academic Chart Generation},
+  author        = {Tang, Yinghao and Xie, Yupeng and Feng, Yingchaojie and Lao, Jiale and Lan, Tingfeng and Chen, Wei},
+  year          = {2026},
+  eprint        = {2606.09174},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2606.09174}
+}
+```
+
 ## 路线
 
 - 图表、图解、原理图生成

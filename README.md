@@ -84,6 +84,28 @@ Turn this technical report into a five-slide visual narrative.
 | [Integrated circuits](skills/zeroplot/domains/integrated-circuits) | schematics, switched-capacitor diagrams, architecture blocks | seed |
 | [Computer science](skills/zeroplot/domains/computer-science) | systems, models, pipelines, evaluation setups | seed |
 
+## Research
+
+One research outcome behind ZeroPlot:
+
+**[Demonstrating chart-plot: Closing the Last Mile of Academic Chart Generation](https://arxiv.org/abs/2606.09174)**
+
+Accepted at **ADS 2026: The Joint Workshop on Agentic Data Systems and
+Data-Centric AI (The 1st ADS & 3rd DATAI), co-located with VLDB 2026**.
+
+If ZeroPlot helps your work, please cite:
+
+```bibtex
+@misc{tang2026chartplot,
+  title         = {Demonstrating chart-plot: Closing the Last Mile of Academic Chart Generation},
+  author        = {Tang, Yinghao and Xie, Yupeng and Feng, Yingchaojie and Lao, Jiale and Lan, Tingfeng and Chen, Wei},
+  year          = {2026},
+  eprint        = {2606.09174},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2606.09174}
+}
+```
+
 ## Roadmap
 
 - Chart, diagram, and schematic generation
