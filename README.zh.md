@@ -2,7 +2,7 @@
 
 # ZeroPlot
 
-### Plot anything. From zero.
+### Plot anything with zero effort.
 
 把意图、数据或参考素材变成可编辑视觉产物。
 
@@ -92,7 +92,7 @@ ZeroPlot 按领域与实际贡献署名，不只看 commit 数。
 
 | 贡献者 | 背景 | 领域 | 贡献 |
 | --- | --- | --- | --- |
-| [Bubu](https://github.com/MisterBrookT) | @KoinaAI · 浙江大学计算机博士 | 计算机科学、科学可视化、AI Agent | 创建者、产品方向、初始视觉领域 |
+| [MisterBrookT](https://github.com/MisterBrookT) | [CS PhD @ ZJU](https://blackblue.cc) | 计算机科学、科学可视化、AI Agent | 创建者、产品方向、初始视觉领域 |
 
 贡献 domain pack、benchmark、视觉 rubric、工作流或集成时，请在同一 PR
 补充背景、领域与具体贡献。

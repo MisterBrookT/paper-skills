@@ -5,7 +5,7 @@ description: "Create editable charts, diagrams, figures, posters, or slides from
 
 # ZeroPlot
 
-**Plot anything. From zero.**
+**Plot anything with zero effort.**
 
 ## Core Scope
 

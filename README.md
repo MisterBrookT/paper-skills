@@ -2,7 +2,7 @@
 
 # ZeroPlot
 
-### Plot anything. From zero.
+### Plot anything with zero effort.
 
 Turn intent, data, or references into editable visual artifacts.
 
@@ -98,7 +98,7 @@ ZeroPlot credits contributors by fields and work—not only commit count.
 
 | Contributor | Background | Fields | Contributions |
 | --- | --- | --- | --- |
-| [Bubu](https://github.com/MisterBrookT) | @KoinaAI · CS PhD @ ZJU | Computer science, scientific visualization, AI agents | Creator, product direction, initial visual domains |
+| [MisterBrookT](https://github.com/MisterBrookT) | [CS PhD @ ZJU](https://blackblue.cc) | Computer science, scientific visualization, AI agents | Creator, product direction, initial visual domains |
 
 Contributing a domain pack, benchmark, visual rubric, workflow, or integration?
 Add your background, fields, and contribution in the same pull request.

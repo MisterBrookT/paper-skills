@@ -1,6 +1,6 @@
 # ZeroPlot
 
-**Plot anything. From zero.**
+**Plot anything with zero effort.**
 
 Create editable charts, diagrams, scientific figures, posters, and slides from
 intent, data, code, or reference material.
