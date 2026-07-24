@@ -1,6 +1,6 @@
 # Integrated Circuits
 
-Seed domain for `plot`.
+Seed domain for ZeroPlot.
 
 ## Target User
 
@@ -53,4 +53,3 @@ input materials
   -> skill rule update
   -> held-out case
 ```
-

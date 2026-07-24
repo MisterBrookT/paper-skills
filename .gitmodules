@@ -1,4 +1,4 @@
 [submodule "skill2"]
 	path = skill2
-	url = https://github.com/MisterBrookT/skill2.git
+	url = https://github.com/blackblue-labs/skill2.git
 	branch = main

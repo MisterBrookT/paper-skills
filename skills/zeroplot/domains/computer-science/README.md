@@ -1,6 +1,6 @@
 # Computer Science
 
-Seed domain for `plot`.
+Seed domain for ZeroPlot.
 
 ## Target User
 
@@ -56,4 +56,3 @@ paper text / rough diagram
   -> skill rule update
   -> held-out case
 ```
-
